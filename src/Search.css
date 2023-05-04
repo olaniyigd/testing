@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    background-color: white;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.flex{
+    margin-top: 100px;
+    display:flex;
+    gap: 10px;
+}
+.image{
+    width: 100px;
+    height: 100px;
+}
+.temp{
+    background-color: black;
+}
+p{
+    color:white;
+}
